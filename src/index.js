@@ -3,6 +3,6 @@
 console.log("bad ballistics started");
 
 export const test_me_obj = {
-    user: "Alex",
-    age: "90",
-}
+	user: "Alex",
+	age: "90",
+};
