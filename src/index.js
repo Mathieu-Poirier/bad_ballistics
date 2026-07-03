@@ -1,6 +1,6 @@
-const canvas = document.querySelector("#game-canvas");
+// const canvas = document.querySelector("#game-canvas");
 
-console.log("bad ballistics started", canvas);
+console.log("bad ballistics started");
 
 export const test_me_obj = {
     user: "Alex",
