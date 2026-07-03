@@ -1,4 +1,4 @@
-import { describe, test, expect } from "bun:test";
+import { expect, test} from "bun:test";
 import { test_me_obj } from "../src";
 // describe("math", () => {
 //   test("adds", () => {
