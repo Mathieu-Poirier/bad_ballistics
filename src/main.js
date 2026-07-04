@@ -1,8 +1,7 @@
-// const canvas = document.querySelector("#game-canvas");
+import { init_gpu_device } from "./gpu/device.js"
 
-console.log("bad ballistics started");
+function gameStart() {
+	const device = init_gpu_device();
+}
 
-export const test_me_obj = {
-	user: "Alex",
-	age: "90",
-};
+gameStart();
