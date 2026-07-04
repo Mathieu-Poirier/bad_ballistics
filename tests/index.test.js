@@ -1,5 +1,6 @@
-import { expect, test} from "bun:test";
+import { expect, test } from "bun:test";
 import { test_me_obj } from "../src";
+
 // describe("math", () => {
 //   test("adds", () => {
 //     expect(1 + 2).toBe(3);
@@ -11,5 +12,5 @@ import { test_me_obj } from "../src";
 // });
 
 test("object test", () => {
-    expect(test_me_obj).toBeObject();
+	expect(test_me_obj).toBeObject();
 });
