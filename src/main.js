@@ -1,7 +1,12 @@
 import { init_gpu_device } from "./gpu/device.js";
 
-function gameStart() {
-	const _device = init_gpu_device();
+async function gameStart() {
+	try {
+		const _device = await init_gpu_device();
+		// GPU is initialized
+	} catch (error) {
+		console.error(error);
+	}
 }
 
-gameStart();
+await gameStart();
