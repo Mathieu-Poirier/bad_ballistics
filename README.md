@@ -13,7 +13,7 @@ bun install
 To run:
 
 ```bash
-bun run src/main.js
+bun run dev
 ```
 
 # Testing
