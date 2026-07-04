@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { test_me_obj } from "../src";
+import { test_me_obj } from "../src/main";
 
 // describe("math", () => {
 //   test("adds", () => {
