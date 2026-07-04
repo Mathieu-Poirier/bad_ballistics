@@ -1,6 +1,6 @@
 {
 	"name": "bad_ballistics",
-	"module": "index.js",
+	"module": "src/main.js",
 	"type": "module",
 	"private": true,
 	"scripts": {
