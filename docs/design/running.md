@@ -1,0 +1,2 @@
+- [ ] Browser supports WebGPU
+- [ ] Graphics drivers are installed and updated
