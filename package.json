@@ -9,7 +9,9 @@
     "test:watch": "bun test --watch",
     "test:coverage": "bun test --coverage",
     "test:e2e": "playwright test",
-    "test:all": "bun test && playwright test"
+    "test:all": "bun test && playwright test",
+    "check": "biome check .",
+    "format": "biome check --write ."
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.2",
