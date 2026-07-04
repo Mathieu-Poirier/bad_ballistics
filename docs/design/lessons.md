@@ -1,1 +1,1 @@
-1. For exportable functions with dependency injection, we should check for malformed input passed in
+1. For exportable functions with dependency injection, we should check for malformed input passed
